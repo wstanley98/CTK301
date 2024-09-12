@@ -1,0 +1,42 @@
+/* This is a stylesheet for assignment3 */
+
+p {
+    color: #ff0000;
+    background-color: midnightblue;
+  }
+
+ h1 {
+color:aquamarine;
+background-color: blueviolet;
+  }
+
+
+  h2 {  
+    color:chartreuse;
+    background-color: magenta;
+
+  }
+
+.class {    
+color:forestgreen
+}
+
+#divexample {
+    background-color: maroon;
+}
+
+.spanstyle {
+    color:goldenrod
+}
+
+a {
+  color: red;
+}
+
+a:visited {
+  color:green
+}
+
+a:hover {
+  color:yellow;
+}
