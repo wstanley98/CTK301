@@ -1,0 +1,30 @@
+.customtext {   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textjustify {
+    text-align: justify;
+}
+
+h1,h2,h3,h4 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.imgbox {
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+}
+
+body {
+    background-image: url(tattoos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}      
