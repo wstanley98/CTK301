@@ -1,0 +1,72 @@
+body {
+    background-image: url(a5bg.png);
+    background-repeat: repeat;
+    background-size: auto;
+}      
+
+h1 {
+    font-weight: normal;
+    font-family:Helvetica;
+    
+}
+
+h2 {
+    font-family:Helvetica;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    padding-bottom: 15px;
+}
+
+nav li {
+    border: 1px solid black;
+    width: 150px;
+    padding: 0px;
+    margin: 10px;
+    background-color: blue;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+nav li a:hover {
+    background-color:lightblue;
+  }
+  a:hover {
+    color:red;
+  }
+  a {
+    font-weight: bold;
+  }
+  
+
+.white {
+    padding: 18px 18px 18px 18px;
+    margin: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+#white {
+    background-color: white;
+    padding: 18px 18px 18px 18px;
+    margin: 20px 20px 20px 20px;
+}
+
+#blue {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    background-color: blue;
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid white;
+    text-align: center;
+}
+
+
