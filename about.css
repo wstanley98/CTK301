@@ -1,0 +1,113 @@
+body {
+    background-color: grey;
+}
+
+#wrapper {
+    width: 906px;
+    border: 5px solid blue;
+    margin: 1em auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+    
+}
+
+.swing {
+    float:right;
+    border: 2px solid blue;
+    margin-right: 20px;
+}
+
+h1 {
+    margin:0 ;
+    color: lightblue;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+h1 a:visited {
+color: lightblue;
+}
+h1 a:hover {
+    color: red;
+}
+header {
+    background: linear-gradient(to bottom, #87CEEB, #4682B4);
+    padding-right: 20px;
+    grid-column: span 12;
+}
+
+.paragraph1 {
+    padding-left: 1em;
+    padding-right: 1em;
+    grid-column: span 8;
+    font-weight:bold;
+    
+}
+.paragraph1 a {
+    color: red;
+}
+
+.paragraph2 {
+    grid-column: span 4;
+    background-color:lightcyan;
+    padding-left:  1em;
+padding-right: 1em;
+font-weight: bold;
+}
+
+
+  h2 {
+    border-bottom: 3px solid blue;
+    padding-bottom: 5px;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+  }
+   nav {
+    grid-column: span 12;
+    padding: 0;
+   }
+
+   nav li {
+    
+    width: 200px;
+    background: linear-gradient(to bottom, #87CEEB, #4682B4);
+    display:inline-flex;
+    padding: 0;
+
+}
+
+nav li a {
+    color: lightblue;
+    padding:10px;
+    text-decoration: none;
+    display: block;
+    font-family:Helvetica;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: white;
+  }
+
+  footer {
+    background-color: red;
+border-top: 5px solid blue;
+    grid-column: span 12;
+  }
+
+  ul {
+    padding-left:0;
+    padding-bottom: 0;
+    margin:0;
+    padding-top: 25px;
+    margin-left: 0;
+  }
+  
+  
