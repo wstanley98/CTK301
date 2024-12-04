@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Projects</title>
+	<link href="projects.css" rel="stylesheet" type="text/css">
+
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+  <!-- Carousel Javascript and CSS files-->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Welcome!</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="Backround.html">Backround</a></li>
+				<li><a href="Projects.html">Projects</a></li>
+				<li><a href="About.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class=will>
+			<h1>Will Stanley</h1>
+
+			<h2>Websites</h2>
+
+			
+			
+
+
+			<div class=pro><section>
+				<div id="myCarousel" class="f-carousel">
+				  <div class="f-carousel__slide"><img src="golf.png"></div>
+				  <div class="f-carousel__slide"><img src="red.png"></div>
+				  <div class="f-carousel__slide"><img src="fancy.png"></div>
+				</div>
+			  </section>
+			</div>
+
+			
+			<script>
+				//JavaScript for Fancybox
+				Fancybox.bind("[data-fancybox]", {});
+			
+				// Javascript for Carousel
+				const container = document.getElementById("myCarousel");
+				const options = { infinite: false };
+				new Carousel(container, options);
+			
+				// Javascript for Carousel
+				const container2 = document.getElementById("secondCarousel");
+				const options2 = { infinite: true };
+				new Carousel(container2, options2);
+			  </script>
+		</div>
+		
+		</div>
+	</div>
+</body>
+
+</html>
