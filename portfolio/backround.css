@@ -1,5 +1,7 @@
 body {
   background-color: #999999;
+  background-image: url(stars.jpg);
+
 }
 
 header{
@@ -19,7 +21,7 @@ h1 {
   width: 1200px;
   border: 1px solid black;
   padding: 15px;
-  background-color: #ffffff;
+  background-color:#e7f9fd;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 10px;
@@ -37,7 +39,6 @@ nav li {
   background: linear-gradient(to bottom, #87CEEB, #4682B4);
   display:inline-flex;
   padding: 0;
-  border: 1px solid black;
   border-radius: 15px;
 
 }
@@ -57,6 +58,8 @@ nav li a:hover {
   color: white;
   
 }
+
+
 
 .will {
   text-align: center;
@@ -111,13 +114,18 @@ p {
 
 .social {
   text-align: center;
+  grid-row: span 4;
 }
 
 .section {
-  padding-left: 1em;
-  padding-right: 1em;
-  grid-column: span 8;
+  grid-column: span 12;
   font-family: "Host Grotesk", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-left: 10;
+  padding-right: 10;
+
 }
 
 
@@ -126,6 +134,21 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }      
+
+.me {
+    border: 3px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+.audio {
+  text-align: center;
+
+}
+
+
 
 
 

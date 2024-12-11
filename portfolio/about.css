@@ -1,5 +1,7 @@
 body {
   background-color: #999999;
+  background-image: url(stars.jpg);
+
 }
 
 header{
@@ -14,12 +16,21 @@ h1 {
   font-family: "Host Grotesk", sans-serif;
 }
 
+.Personal {
+  font-family: "Host Grotesk", sans-serif;
+font-size: 25px;
+background-color: #87CEEB;
+border-radius: 15px;
+padding-right: 15px;
+
+}
+
 #wrapper {
   margin: 24px auto;
   width: 1200px;
   border: 1px solid black;
   padding: 15px;
-  background-color: #ffffff;
+  background-color:#e7f9fd;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 10px;
@@ -37,7 +48,7 @@ nav li {
   background: linear-gradient(to bottom, #87CEEB, #4682B4);
   display:inline-flex;
   padding: 0;
-  border: 1px solid black;
+  border: ;
   border-radius: 15px;
 
 }
